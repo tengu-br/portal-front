@@ -15,6 +15,7 @@ import CardTwitter from './components/cards/card-twitter';
 import EChartPrincipaisTemas from './components/echarts-principais-temas/echarts.component';
 import EChartCitacao from './components/echarts-citacoes/echarts.component';
 import EChartVolumeTemas from './components/echarts-volume-tema/echarts.component';
+import NuvemWordcloud from './components/nuvem-wordcloud/nuvem-wordcloud.component';
 
 // import { Card } from '@material-ui/core';
 
@@ -125,7 +126,7 @@ const Analytics = (props) => {
               Nuvem de Wordcloud
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <NuvemWordcloud />
             </Paper>
           </Grid>
           <Grid key={13} item xs={12} sm={12} md={6} className={classes.portalWidget}>
