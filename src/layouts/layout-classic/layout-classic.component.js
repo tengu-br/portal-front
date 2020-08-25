@@ -44,21 +44,16 @@ class ClassicLayout extends React.Component {
 
     return (
       <div className={classNames(scss['layout-classic-wrapper'], classes.wrapper)}>
-        <Sidenav>
-          <MenuSidenav />
-        </Sidenav>
         <main className={scss['layout-classic-main']}>
           <AppBar color="default" position="static">
-            <ContentToolbar />
+            
           </AppBar>
           <div className={scss['layout-classic-content-wrapper']}>
             <div className={scss['layout-classic-content']}>
               {children}
             </div>
           </div>
-          <ContentFooter />
         </main>
-        <NotificationSidenav />
       </div>
     );
   }

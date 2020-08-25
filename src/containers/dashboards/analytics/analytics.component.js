@@ -168,7 +168,7 @@ const Analytics = (props) => {
               Destaque no Senado Federal
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <EChaCardTwitterrts />
+              <CardTwitter />
             </Paper>
           </Grid>
 
