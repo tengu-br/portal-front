@@ -144,7 +144,7 @@ const Analytics = (props) => {
               Maior Interacao
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <CardTwitter />
             </Paper>
           </Grid>
           <Grid key={15} item xs={12} sm={12} md={3} className={classes.portalWidget}>
@@ -152,7 +152,7 @@ const Analytics = (props) => {
               Destaque na Imprensa
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <CardTwitter />
             </Paper>
           </Grid>
           <Grid key={16} item xs={12} sm={12} md={3} className={classes.portalWidget}>
@@ -160,7 +160,7 @@ const Analytics = (props) => {
               Destaque na Camara dos Deputados
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <CardTwitter />
             </Paper>
           </Grid>
           <Grid key={17} item xs={12} sm={12} md={3} className={classes.portalWidget}>
@@ -168,7 +168,7 @@ const Analytics = (props) => {
               Destaque no Senado Federal
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <EChaCardTwitterrts />
             </Paper>
           </Grid>
 
