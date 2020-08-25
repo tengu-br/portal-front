@@ -16,6 +16,7 @@ import EChartPrincipaisTemas from './components/echarts-principais-temas/echarts
 import EChartCitacao from './components/echarts-citacoes/echarts.component';
 import EChartVolumeTemas from './components/echarts-volume-tema/echarts.component';
 import NuvemWordcloud from './components/nuvem-wordcloud/nuvem-wordcloud.component';
+import NuvemEmojicloud from './components/nuvem-emojicloud/nuvem-emojicloud.component';
 
 // import { Card } from '@material-ui/core';
 
@@ -134,7 +135,7 @@ const Analytics = (props) => {
               Nuvem de Emoji
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <NuvemEmojicloud />
             </Paper>
           </Grid>
 
