@@ -9,7 +9,7 @@ var requestOptions = {
 class NuvemEmojicloud extends React.Component {
   constructor(props) {
     super(props);
-    fetch("http://127.0.0.1:3030/nuvemEmojicloud/08082020", requestOptions)
+    fetch("http://167.71.115.228:3030/nuvemEmojicloud/08082020", requestOptions)
       .then(response => response.json())
       .then(
         (result) => {

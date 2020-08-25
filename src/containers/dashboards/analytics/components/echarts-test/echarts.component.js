@@ -17,7 +17,7 @@ class EChart extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://127.0.0.1:3030/teste/68", requestOptions)
+    fetch("http://167.71.115.228:3030/teste/68", requestOptions)
       .then(response => response.json())
       .then(
         (result) => {

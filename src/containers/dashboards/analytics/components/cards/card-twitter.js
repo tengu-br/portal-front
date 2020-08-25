@@ -16,7 +16,7 @@ class CardTwitter extends React.Component {
             isLoaded: false,
             APIdata: ""
         };
-        fetch("http://127.0.0.1:3030/publicacaoEmDestaque/08082020", requestOptions)
+        fetch("http://167.71.115.228:3030/publicacaoEmDestaque/08082020", requestOptions)
             .then(response => response.json())
             .then(
                 (result) => {
