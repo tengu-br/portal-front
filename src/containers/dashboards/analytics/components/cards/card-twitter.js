@@ -9,20 +9,24 @@ var requestOptions = {
 };
 
 class CardTwitter extends React.Component {
-    constructor(props) {
+    constructor (props) {
         super(props);
         this.state = {
             error: null,
             isLoaded: false,
             APIdata: ""
         };
-        fetch("http://167.71.115.228:3030/publicacaoEmDestaque/08082020", requestOptions)
+
+    }
+    
+    componentDidMount() {
+        fetch("http://127.0.0.1:3030/publicacaoEmDestaque/08082020", requestOptions)
             .then(response => response.json())
             .then(
                 (result) => {
                     this.setState({
                         isLoaded: true,
-                        APIdata: result.id,
+                        APIdata: result.id
                     });
                 },
                 (error) => {
@@ -34,13 +38,9 @@ class CardTwitter extends React.Component {
             )
     }
 
-    // componentDidMount() {
-
-    // }
-
     render() {
         return (
-            <TwitterTweetEmbed tweetId={this.state.APIdata} />
+            <TwitterTweetEmbed key ={this.state.APIdata} tweetId={this.state.APIdata} />
         )
     }
 }

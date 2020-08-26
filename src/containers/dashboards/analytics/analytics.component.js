@@ -17,6 +17,9 @@ import EChartCitacao from './components/echarts-citacoes/echarts.component';
 import EChartVolumeTemas from './components/echarts-volume-tema/echarts.component';
 import NuvemWordcloud from './components/nuvem-wordcloud/nuvem-wordcloud.component';
 import NuvemEmojicloud from './components/nuvem-emojicloud/nuvem-emojicloud.component';
+import EChartCitacoesRede from './components/echarts-citacoes-rede/echarts.component';
+import EChartPolaridade from './components/echarts-polaridade/echarts.component';
+import EChartPolaridadeAtores from './components/polaridade-atores/echarts.component';
 
 // import { Card } from '@material-ui/core';
 
@@ -71,7 +74,7 @@ const Analytics = (props) => {
             </Typography>
             <CardSimpleExample />
           </Grid>
-          <Grid key={6} item xs={12} sm={12} md={6} className={classes.portalWidget}>
+          <Grid key={6} item xs={12} sm={12} md={7} className={classes.portalWidget}>
             <Typography variant="subheading" className={classes.portalWidgetHeading}>
               Numeros Totais
             </Typography>
@@ -79,7 +82,7 @@ const Analytics = (props) => {
               <ECharts />
             </Paper>
           </Grid>
-          <Grid key={7} item xs={12} sm={12} md={3} className={classes.portalWidget}>
+          <Grid key={7} item xs={12} sm={12} md={2} className={classes.portalWidget}>
             <Typography variant="subheading" className={classes.portalWidgetHeading}>
               Publicacoes em Destaque
             </Typography>
@@ -177,7 +180,7 @@ const Analytics = (props) => {
               Citacoes de Tema por Rede Social
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <EChartCitacoesRede />
             </Paper>
           </Grid>
           <Grid key={19} item xs={12} sm={12} md={6} className={classes.portalWidget}>
@@ -185,7 +188,7 @@ const Analytics = (props) => {
               Reforma Tributaria por Partidos
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <EChartPolaridade />
             </Paper>
           </Grid>
 
@@ -194,7 +197,7 @@ const Analytics = (props) => {
               Polarizacao de Atores Politicos: Contra/A Favor da Reforma
             </Typography>
             <Paper className={classes.portalWidgetContent}>
-              <ECharts />
+              <EChartPolaridadeAtores />
             </Paper>
           </Grid>
 

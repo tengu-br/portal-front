@@ -22,7 +22,7 @@ class EChartCitacao extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://167.71.115.228:3030/citacoes/08082020", requestOptions)
+    fetch("http://127.0.0.1:3030/citacoes/08082020", requestOptions)
       .then(response => response.json())
       .then(
         (result) => {
