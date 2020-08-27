@@ -4,14 +4,16 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   margin: 0;
   width: 100%;
   height: 100%;
 }
 
 body {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 .portal-hide-scrollbars {
@@ -36,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 500px;
-  background: rgba(0,0,0,0.050);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .portal-pages__header-demo {
@@ -53,10 +55,12 @@ body {
 .portal-pages__content-inner {
   margin-top: -200px;
   padding: 16px;
-  box-shadow: 0px -40px 100px -50px rgba(0, 0, 0, 0.3), -20px 0px 40px -50px rgba(0, 0, 0, 0.2), 20px 0px 40px -50px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -40px 100px -50px rgba(0, 0, 0, 0.3),
+    -20px 0px 40px -50px rgba(0, 0, 0, 0.2),
+    20px 0px 40px -50px rgba(0, 0, 0, 0.2);
   opacity: 0;
   transform: translateY(20px);
-  animation: portal-pages__content-inner .3s forwards 1 ease-in-out;
+  animation: portal-pages__content-inner 0.3s forwards 1 ease-in-out;
 }
 
 @keyframes portal-pages__content-inner {

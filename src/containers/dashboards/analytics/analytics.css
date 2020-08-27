@@ -1,0 +1,48 @@
+.littleBoxOne {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: rgb(243, 219, 57);
+  background: linear-gradient(
+    0deg,
+    rgba(243, 219, 57, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+}
+.littleBoxTwo {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: rgb(12, 89, 166);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 89, 166, 1) 0%,
+    rgba(23, 162, 177, 1) 100%
+  );
+  text-align: center;
+}
+.littleBoxThree {
+  margin-top: auto;
+  margin-bottom: auto;
+  background: rgb(243, 219, 57);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(243, 219, 57, 1) 100%
+  );
+  text-align: center;
+}
+p.textinho {
+  color: white;
+  font-weight: 700;
+  font-size: medium;
+}
+h1.textinho {
+  color: white;
+  font-weight: 900;
+  font-size: xx-large;
+}
+h2.textinho {
+  color: white;
+  font-weight: 800;
+  font-size: large;
+}

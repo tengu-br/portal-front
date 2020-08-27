@@ -8,7 +8,7 @@ import orange from '@material-ui/core/colors/orange';
 const defaultContentTheme = {
   direction: 'ltr',
   typography: {
-    fontFamily: 'Barlow',
+    fontFamily: 'Roboto',
     fontSize: 14,
     subheading: {
       fontSize: '14px'
@@ -54,7 +54,7 @@ const defaultSidenavTheme = {
 const darkContentTheme = {
   direction: 'ltr',
   typography: {
-    fontFamily: 'Barlow',
+    fontFamily: 'Roboto',
     fontSize: 14,
     subheading: {
       fontSize: '14px'
@@ -81,7 +81,7 @@ const darkContentTheme = {
 const nightContentTheme = {
   direction: 'ltr',
   typography: {
-    fontFamily: 'Barlow',
+    fontFamily: 'Roboto',
     fontSize: 14,
     subheading: {
       fontSize: '14px'

@@ -7,10 +7,10 @@ var requestOptions = {
 };
 
 var weatherIcons = {
-  'Tabata': "https://pbs.twimg.com/profile_images/1174037150104530946/PkVtNBb5_400x400.jpg",
-  'Marina': "https://pbs.twimg.com/profile_images/1049312962442416129/Ws_XZ6u__400x400.jpg",
-  'Ivan': "https://pbs.twimg.com/profile_images/1052627113675755520/XxVxMAi0_400x400.jpg",
-  'Marcel': "https://pbs.twimg.com/profile_images/1267523796442980355/nqvMhws0_400x400.jpg"
+  'Tabata': "https://drive.google.com/uc?export=view&id=1IC9FD2hapGutTPq8uUjdrr11klMEl_3d",
+  'Marina': "https://drive.google.com/uc?export=view&id=1jUKxmv-998PFYGuuUrSTUkf5j_Lj7hUy",
+  'Ivan': "https://drive.google.com/uc?export=view&id=186I5B3fiE5YxUVYHfzoAfVfwU5c3vC4c",
+  'Marcel': "https://drive.google.com/uc?export=view&id=11NdlE-pKL-I0yfP0ZJbRFa63lbCFWBT6"
 };
 
 const myStyle = {

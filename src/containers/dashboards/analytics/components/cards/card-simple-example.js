@@ -9,7 +9,8 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
   card: {
-    minWidth: 275
+    minWidth: 275,
+    borderRadius: '20px'
   },
   bullet: {
     display: 'inline-block',
@@ -25,6 +26,7 @@ const styles = theme => ({
     marginBottom: 12,
     color: theme.palette.text.secondary
   }
+  
 });
 
 function SimpleCard(props) {
