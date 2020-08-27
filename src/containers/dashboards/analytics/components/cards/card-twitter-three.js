@@ -8,25 +8,21 @@ var requestOptions = {
     redirect: 'follow'
 };
 
-class CardTwitter extends React.Component {
-    constructor (props) {
+class CardTwitterThree extends React.Component {
+    constructor(props) {
         super(props);
         this.state = {
             error: null,
             isLoaded: false,
-            APIdata: "1295325753165459456"
+            APIdata: "1292422876751069189"
         };
-
-    }
-    
-    // componentDidMount() {
     //     fetch("http://127.0.0.1:3030/publicacaoEmDestaque/08082020", requestOptions)
     //         .then(response => response.json())
     //         .then(
     //             (result) => {
     //                 this.setState({
     //                     isLoaded: true,
-    //                     APIdata: result.id
+    //                     APIdata: result.id,
     //                 });
     //             },
     //             (error) => {
@@ -36,14 +32,18 @@ class CardTwitter extends React.Component {
     //                 });
     //             }
     //         )
+    }
+
+    // componentDidMount() {
+
     // }
 
     render() {
         return (
-            <TwitterTweetEmbed key ={this.state.APIdata} tweetId={this.state.APIdata} />
+            <TwitterTweetEmbed tweetId={this.state.APIdata} />
         )
     }
 }
 
 
-export default CardTwitter;
+export default CardTwitterThree;

@@ -21,6 +21,10 @@ import NuvemEmojicloud from './components/nuvem-emojicloud/nuvem-emojicloud.comp
 import EChartCitacoesRede from './components/echarts-citacoes-rede/echarts.component';
 import EChartPolaridade from './components/echarts-polaridade/echarts.component';
 import EChartPolaridadeAtores from './components/polaridade-atores/echarts.component';
+import CardTwitterOne from './components/cards/card-twitter-one';
+import CardTwitterTwo from './components/cards/card-twitter-two';
+import CardTwitterThree from './components/cards/card-twitter-three';
+import CardTwitterFour from './components/cards/card-twitter-four';
 
 const paperStyle = {
   borderRadius: '20px'
@@ -69,10 +73,10 @@ const Analytics = (props) => {
                   <br />CITAÇÕES<br /><br />
                 </Typography>
                 <Typography component="h1" className="textinho">
-                  392 mil<br />
+                  28 mi<br />
                 </Typography>
                 <Typography component="p" className="textinho">
-                  lorem ipsum dolor sit amet
+                  sed ut perspicatis unde
                     </Typography>
               </CardContent>
             </Paper>
@@ -84,10 +88,10 @@ const Analytics = (props) => {
                   <br />CITAÇÕES<br /><br />
                 </Typography>
                 <Typography component="h1" className="textinho">
-                  392 mil<br />
+                  928<br />
                 </Typography>
                 <Typography component="p" className="textinho">
-                  lorem ipsum dolor sit amet
+                consectetur adipiscing elit
                     </Typography>
               </CardContent>
             </Paper>
@@ -97,10 +101,10 @@ const Analytics = (props) => {
                   <br />CITAÇÕES<br /><br />
                 </Typography>
                 <Typography component="h1" className="textinho">
-                  392 mil<br />
+                  27/08 <br />
                 </Typography>
                 <Typography component="p" className="textinho">
-                  lorem ipsum dolor sit amet
+                nostrud exercitation ullamco
                     </Typography>
               </CardContent>
             </Paper>
@@ -167,7 +171,7 @@ const Analytics = (props) => {
               Maior Interacao
             </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
-              <CardTwitter />
+              <CardTwitterOne />
             </Paper>
           </Grid>
           <Grid key={15} item xs={12} sm={12} md={3} className={classes.portalWidget}>
@@ -175,7 +179,7 @@ const Analytics = (props) => {
               Destaque na Imprensa
             </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
-              <CardTwitter />
+              <CardTwitterTwo />
             </Paper>
           </Grid>
           <Grid key={16} item xs={12} sm={12} md={3} className={classes.portalWidget}>
@@ -183,7 +187,7 @@ const Analytics = (props) => {
               Destaque na Camara dos Deputados
             </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
-              <CardTwitter />
+              <CardTwitterThree />
             </Paper>
           </Grid>
           <Grid key={17} item xs={12} sm={12} md={3} className={classes.portalWidget}>
@@ -191,7 +195,7 @@ const Analytics = (props) => {
               Destaque no Senado Federal
             </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
-              <CardTwitter />
+              <CardTwitterFour />
             </Paper>
           </Grid>
 
