@@ -12,7 +12,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['Barlow:300,400,400i,500,600,700']
+    families: ['Roboto:300,400,400i,500,600,700']
   }
 });
 

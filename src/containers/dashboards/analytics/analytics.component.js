@@ -8,7 +8,6 @@ import { withStyles } from '@material-ui/core/styles';
 
 import ECharts from './components/echarts-test/echarts.component';
 import EChartAreaBasic from './components/echarts-area-basic/echarts.component'
-
 import CardSimpleExample from './components/cards/card-simple-example';
 import styles from './analytics.style';
 import CardTwitter from './components/cards/card-twitter';
@@ -20,45 +19,6 @@ import NuvemEmojicloud from './components/nuvem-emojicloud/nuvem-emojicloud.comp
 import EChartCitacoesRede from './components/echarts-citacoes-rede/echarts.component';
 import EChartPolaridade from './components/echarts-polaridade/echarts.component';
 import EChartPolaridadeAtores from './components/polaridade-atores/echarts.component';
-
-// import { Card } from '@material-ui/core';
-
-
-// <Grid key={1} item xs={12} sm={12} md={8} className={classes.portalWidget}>
-// <Typography variant="subheading" className={classes.portalWidgetHeading}>
-//   Análise
-// </Typography>
-// <Paper className={classes.portalWidgetContent}>
-//   <TabbedChartWidget />
-// </Paper>
-// </Grid>
-
-// <Grid key={2} item xs={12} sm={12} md={4} className={classes.portalWidget}>
-// <Typography variant="subheading" className={classes.portalWidgetHeading}>
-//   Usuários Ativos
-// </Typography>
-// <Paper className={classes.portalWidgetContent}>
-//   <ActiveUsersWidget />
-// </Paper>
-// </Grid>
-
-// <Grid key={3} item xs={12} sm={12} md={4} className={classes.portalWidget}>
-// <Typography variant="subheading" className={classes.portalWidgetHeading}>
-//   Sessões por Aparelho
-// </Typography>
-// <Paper className={classes.portalWidgetContent}>
-//   <DoughnutChartWidget />
-// </Paper>
-// </Grid>
-
-// <Grid key={4} item xs={12} sm={12} md={8} className={classes.portalWidget}>
-// <Typography variant="subheading" className={classes.portalWidgetHeading}>
-//   Aquisição de clientes
-// </Typography>
-// <Paper className={classes.portalWidgetContent}>
-//   <TableWidget />
-// </Paper>
-// </Grid>
 
 const Analytics = (props) => {
   const { classes } = props;
@@ -198,33 +158,6 @@ const Analytics = (props) => {
             </Typography>
             <Paper className={classes.portalWidgetContent}>
               <EChartPolaridadeAtores />
-            </Paper>
-          </Grid>
-
-          <Grid key={21} item xs={12} sm={12} md={12} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Destaque na Imprensa
-            </Typography>
-            <Paper className={classes.portalWidgetContent}>
-              <ECharts />
-            </Paper>
-          </Grid>
-
-          <Grid key={22} item xs={12} sm={12} md={12} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Destaque dos Atores Politicos
-            </Typography>
-            <Paper className={classes.portalWidgetContent}>
-              <ECharts />
-            </Paper>
-          </Grid>
-
-          <Grid key={23} item xs={12} sm={12} md={12} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Destaque dos Influenciadores
-            </Typography>
-            <Paper className={classes.portalWidgetContent}>
-              <ECharts />
             </Paper>
           </Grid>
 
