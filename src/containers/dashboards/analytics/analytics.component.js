@@ -38,6 +38,10 @@ const Analytics = (props) => {
       <Grid item xs={12}>
         <Grid container justify="center" spacing={24}>
 
+          <Grid key={4} item xs={0} sm={0} md={12} >
+            <img src="https://drive.google.com/uc?export=view&id=1Y9vdutyR_sN1Iu_VbHmLZtOuitbQPeUo" width="100%" style={{ padding: "0px" }} />
+          </Grid>
+
           <Grid key={5} item xs={12} sm={12} md={3} className={classes.portalWidget}>
             <Paper className={classes.portalWidgetContent}>
               <CardContent >
@@ -70,7 +74,7 @@ const Analytics = (props) => {
             <Paper className={classes.portalWidgetContent} style={paperStyle} className="littleBoxTwo">
               <CardContent >
                 <Typography variant="display1" component="h2" className="textinho">
-                  <br />CITAÇÕES<br /><br />
+                  <br />USUARIOS<br /><br />
                 </Typography>
                 <Typography component="h1" className="textinho">
                   28 mi<br />
@@ -85,26 +89,26 @@ const Analytics = (props) => {
             <Paper className={classes.portalWidgetContent} style={paperStyle} className="littleBoxTwo">
               <CardContent >
                 <Typography variant="display1" component="h2" className="textinho">
-                  <br />CITAÇÕES<br /><br />
+                  <br />INTERACOES<br /><br />
                 </Typography>
                 <Typography component="h1" className="textinho">
                   928<br />
                 </Typography>
                 <Typography component="p" className="textinho">
-                consectetur adipiscing elit
+                  consectetur adipiscing elit
                     </Typography>
               </CardContent>
             </Paper>
             <Paper className={classes.portalWidgetContent} style={paperStyle} className="littleBoxThree">
               <CardContent >
                 <Typography variant="display1" component="h2" className="textinho">
-                  <br />CITAÇÕES<br /><br />
+                  <br />DATAS<br /><br />
                 </Typography>
                 <Typography component="h1" className="textinho">
                   27/08 <br />
                 </Typography>
                 <Typography component="p" className="textinho">
-                nostrud exercitation ullamco
+                  nostrud exercitation ullamco
                     </Typography>
               </CardContent>
             </Paper>
@@ -116,115 +120,117 @@ const Analytics = (props) => {
             </Paper>
           </Grid>
           <Grid key={8} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Volume Total da Reforma
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Volume Total da Reforma
+          </Typography>
               <EChartAreaBasic />
             </Paper>
           </Grid>
           <Grid key={9} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Principais Temas
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Principais Temas
+            </Typography>
               <EChartPrincipaisTemas />
             </Paper>
           </Grid>
 
           <Grid key={10} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Citacoes - Camara dos Deputados vs Senado Federal
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Citações - Câmara vs Senado
+            </Typography>
               <EChartCitacao />
             </Paper>
           </Grid>
           <Grid key={11} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Volume do Tema
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Volume do Tema
+            </Typography>
               <EChartVolumeTemas />
             </Paper>
           </Grid>
 
           <Grid key={12} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Nuvem de Wordcloud
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Nuvem de Wordcloud
+            </Typography>
               <NuvemWordcloud />
             </Paper>
           </Grid>
           <Grid key={13} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Nuvem de Emoji
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Nuvem de Emoji
+            </Typography>
               <NuvemEmojicloud />
             </Paper>
           </Grid>
 
           <Grid key={14} item xs={12} sm={12} md={3} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Maior Interacao
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Maior Interacao
+            </Typography>
               <CardTwitterOne />
             </Paper>
           </Grid>
           <Grid key={15} item xs={12} sm={12} md={3} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Destaque na Imprensa
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Destaque na Imprensa
+            </Typography>
               <CardTwitterTwo />
             </Paper>
           </Grid>
           <Grid key={16} item xs={12} sm={12} md={3} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Destaque na Camara dos Deputados
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Destaque na Câmara
+            </Typography>
               <CardTwitterThree />
             </Paper>
           </Grid>
           <Grid key={17} item xs={12} sm={12} md={3} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Destaque no Senado Federal
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Destaque no Senado
+            </Typography>
               <CardTwitterFour />
             </Paper>
           </Grid>
 
           <Grid key={18} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Citacoes de Tema por Rede Social
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Citações de Tema por Rede Social
+            </Typography>
               <EChartCitacoesRede />
             </Paper>
           </Grid>
           <Grid key={19} item xs={12} sm={12} md={6} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Reforma Tributaria por Partidos
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Reforma Tributária por Partidos
+            </Typography>
               <EChartPolaridade />
             </Paper>
           </Grid>
 
           <Grid key={20} item xs={12} sm={12} md={12} className={classes.portalWidget}>
-            <Typography variant="subheading" className={classes.portalWidgetHeading}>
-              Polarizacao de Atores Politicos: Contra/A Favor da Reforma
-            </Typography>
             <Paper className={classes.portalWidgetContent} style={paperStyle}>
+              <Typography variant="subheading" className="subtitulo">
+                Polarização de Atores Políticos: Contra/A Favor da Reforma
+          </Typography>
               <EChartPolaridadeAtores />
             </Paper>
           </Grid>
-
+          <Grid key={3} item xs={0} sm={0} md={12} >
+            <img src="https://drive.google.com/uc?export=view&id=1zBES5PPpIw54QAKCNXjmS6yWbg6jZypO" width="100%" style={{ padding: "0px" }} />
+          </Grid>
         </Grid>
       </Grid>
     </div>

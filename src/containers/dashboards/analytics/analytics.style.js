@@ -10,7 +10,6 @@ const styles = theme => ({
     flexDirection: 'column'
   },
   portalWidgetHeading: {
-    textTransform: 'uppercase',
     paddingLeft: 12,
     borderLeftWidth: 2,
     borderLeftStyle: 'solid',
