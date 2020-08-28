@@ -43,10 +43,10 @@ const Analytics = (props) => {
           </Grid>
 
           <Grid key={5} item xs={12} sm={12} md={3} className={classes.portalWidget}>
-            <Paper className={classes.portalWidgetContent}>
+            <Paper className={classes.portalWidgetContent} style={paperStyle} >
               <CardContent >
-                <Typography variant="display1" component="h2" >
-                  <br />Resumo do Periodo <br /><br />
+                <Typography variant="subheading" className="subtitulo">
+                  Resumo do Periodo <br /><br />
                 </Typography>
                 <Typography component="p">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />
